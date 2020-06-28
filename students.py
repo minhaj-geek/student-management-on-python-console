@@ -12,6 +12,7 @@ class students():
 
     #Function to save a Student information into a File
     def save_tofile(self):
+        #Make a text file name 'std_information' it is necessary
         filename=open('std_information','a')
         filename.write(self.name+',')
         filename.write(str(self.age)+',')
